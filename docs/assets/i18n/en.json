@@ -1,0 +1,83 @@
+{
+  "TITLE": {
+    "BRAND_NAME": "D.CAFE",
+    "WELCOME": "GLAD TO SEE YOU",
+    "WHAT_DO_YOU_WANT": "What do you prefer for today?",
+    "SMTH_TO_EAT": "SOMETHING TO EAT",
+    "SMTH_TO_DRINK": "SOMETHING TO DRINK"
+  },
+  "HINT": {
+    "SMTH_TO_EAT": "Toasts, English breakfast, Panini, Quesadilla, Frenched fries etc.",
+    "SMTH_TO_DRINK": "Coffee, Regular Tea, Premium Chinese tea, Water, Juice, Milkshake etc.",
+    "EMPTY_FOR_NOW": "Ooops! It's empty for now"
+  },
+  "BUTTON": {
+    "GO_BACK": "Go back"
+  },
+
+  "ITEM": {
+    "NAME": {
+      "ENGLISH_BREAKFAST": "English breakfast",
+      "QUESADILLA": "Quesadilla",
+      "CURD_FRITTERS": "Curd fritters",
+      "PANCAKES": "Pancakes",
+      "PANINI": "Panini",
+      "TOASTS": "Toasts",
+      "CREAM_SOUP": "Cream soup of the day",
+
+      "FRENCHED_FRIES": "Frenched fries",
+      "NUGGETS": "Nuggets",
+      "SAUCE": "Sauce",
+
+      "NUT": "Sweet Small/Big nut",
+      "CROISSANT": "Croissant",
+      "MUFFIN": "Muffin",
+      "PIPE": "Sweet pipe",
+      "DONUT": "Donut",
+      "WAFFLE_CAKE": "Waffle cake",
+      "HONEY_CAKE": "Honey cake",
+
+      "ESPRESSO": "Espresso",
+      "DOPIO": "Double espresso",
+      "AMERICANO": "Americano",
+      "AMERICANO_MILK": "Americano with milk",
+      "FILTER_COFFEE": "Filter coffee",
+      "CAPPUCCINO": "Cappuccino",
+      "LATTE": "Latte",
+      "FLAT_WHITE": "Flat white",
+      "RAF": "Raf",
+      "CAPPUORANGE": "CappuOrange",
+      "CACAO": "Cacao",
+      "TEA": "Tea",
+      "NATURAL_TEA": "Natural tea",
+      "PREMIUM_TEA": "Premium tea",
+      "MILK": "Milk",
+      "MASALA": "Masala chai",
+      "LACTOSE_FREE_MILK": "+ Lactose free milk",
+      "PANT_MILK": "+ Plant milk M/L",
+
+      "ICE_LATTE": "Ice latte",
+      "ICE_CAPPUORANGE": "Ice cappuorange",
+      "ESPRESSO_TONIC": "Espresso tonic",
+      "LEMONADE": "Lemonade",
+      "MILKSHAKE": "Milkshake",
+
+      "WATER": "Still/sprinkle water",
+      "COLA": "Cola/Fanta/Sprite 0.3/0.5",
+      "JUICE": "Juice 0.2/0.5",
+      "SCHWEPPES": "Schweppes 0.3"
+    },
+    "DESCRIPTION": {
+      "ENGLISH_BREAKFAST": "Scrambled eggs, fried sausages, cherry and feta salad, pickled cucumbers with Dijon mustard, beans, toast",
+      "QUESADILLA": "Tortilla filled with chicken fillet, stewed mushrooms, red pepper, corn, sauce and mozzarella cheese. Optional hot sauce."
+    },
+    "TITLE": {
+      "BREAKFASTS_TOASTS": "Breakfasts/Toasts",
+      "FRYING": "Frying",
+      "SWEETS": "Sweets",
+      "COFFEE_TEA": "Coffee/Not coffee",
+      "COLD_DRINK": "Cold Drinks",
+      "WATER_JUICE": "Water/Juice"
+    }
+  }
+}
