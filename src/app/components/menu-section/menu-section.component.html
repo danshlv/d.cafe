@@ -16,8 +16,8 @@
 
 
           <!-- Price blocks (50 or 50/70) -->
-          <div *ngIf="Array.isArray(item.price)" class="flex items-center">
-            <p *ngFor="let price of item.price; last as isLast" class="ml-2 text-xl">{{ price }}{{ !isLast ? '/' : '' }}</p>
+          <div *ngIf="Array.isArray(item.price)" class="ml-2 flex items-center">
+            <p *ngFor="let price of item.price; last as isLast" class="text-xl">{{ price }}{{ !isLast ? '/' : '' }}</p>
           </div>
 
           <p *ngIf="!Array.isArray(item.price)" class="ml-2 text-xl">{{ item.price }}</p>
