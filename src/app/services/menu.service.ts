@@ -25,6 +25,10 @@ export class MenuService {
               price: 90
             }),
             new MenuItem({
+              name: 'ITEM.NAME.PANCAKES',
+              price: 65
+            }),
+            new MenuItem({
               name: 'ITEM.NAME.TOASTS',
               price: 55
             }),
@@ -34,7 +38,7 @@ export class MenuService {
             }),
             new MenuItem({
               name: 'ITEM.NAME.CREAM_SOUP',
-              price: 65
+              price: 70
             })
           ]
         },
@@ -83,7 +87,7 @@ export class MenuService {
               price: 25
             }),
             new MenuItem({
-              name: 'ITEM.NAME.HONEY_CAKE',
+              name: 'ITEM.NAME.CAKE',
               price: 55
             }),
           ]
@@ -102,7 +106,7 @@ export class MenuService {
             }),
             new MenuItem({
               name: 'ITEM.NAME.DOPIO',
-              price: 30
+              price: 35
             }),
             new MenuItem({
               name: 'ITEM.NAME.AMERICANO',
@@ -114,11 +118,11 @@ export class MenuService {
             }),
             new MenuItem({
               name: 'ITEM.NAME.FILTER_COFFEE',
-              price: 30
+              price: 35
             }),
             new MenuItem({
               name: 'ITEM.NAME.CAPPUCCINO',
-              price: 30
+              price: 35
             }),
             new MenuItem({
               name: 'ITEM.NAME.LATTE',
@@ -130,11 +134,11 @@ export class MenuService {
             }),
             new MenuItem({
               name: 'ITEM.NAME.RAF',
-              price: 60
+              price: 65
             }),
             new MenuItem({
               name: 'ITEM.NAME.CAPPUORANGE',
-              price: 60
+              price: 65
             }),
             new MenuItem({
               name: 'ITEM.NAME.CACAO',
@@ -146,7 +150,7 @@ export class MenuService {
             }),
             new MenuItem({
               name: 'ITEM.NAME.NATURAL_TEA',
-              price: 30
+              price: 35
             }),
             new MenuItem({
               name: 'ITEM.NAME.PREMIUM_TEA',
@@ -175,19 +179,19 @@ export class MenuService {
           items: [
             new MenuItem({
               name: 'ITEM.NAME.ICE_LATTE',
-              price: 45
+              price: 50
             }),
             new MenuItem({
               name: 'ITEM.NAME.ICE_CAPPUORANGE',
-              price: 60
+              price: 65
             }),
             new MenuItem({
               name: 'ITEM.NAME.ESPRESSO_TONIC',
-              price: 40
+              price: 50
             }),
             new MenuItem({
               name: 'ITEM.NAME.LEMONADE',
-              price: 35
+              price: 40
             }),
             new MenuItem({
               name: 'ITEM.NAME.MILKSHAKE',
