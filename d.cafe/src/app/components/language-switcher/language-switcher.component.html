@@ -1,0 +1,21 @@
+<div class="flex items-center cursor-pointer">
+  <p
+    class="px-2 py-1 transition-all text-lg rounded-lg mr-2"
+    [ngClass]="{
+      'text-white bg-transparent': currentLang !== LANG.UK,
+      'text-black bg-white': currentLang === LANG.UK
+    }"
+    (click)="selectLang(LANG.UK)">
+    UK
+  </p>
+
+  <p
+    class="px-2 py-1 transition-all text-lg rounded-lg"
+    [ngClass]="{
+      'text-white bg-transparent': currentLang !== LANG.EN,
+      'text-black bg-white': currentLang === LANG.EN
+    }"
+    (click)="selectLang(LANG.EN)">
+    EN
+  </p>
+</div>

@@ -1,0 +1,13 @@
+
+<div class="mt-40 w-full flex flex-col items-center justify-center">
+  <p class="text-white text-4xl font-semibold text-center">{{ 'TITLE.WELCOME' | translate }}!</p>
+
+  <p class="text-white text-xl text-center mt-4">{{ 'TITLE.WHAT_DO_YOU_WANT' | translate }}</p>
+</div>
+
+
+<div class="mt-20 w-full flex flex-col items-center justify-center gap-4">
+  <ng-container *ngFor="let card of menuCards">
+    <app-menu-card class="w-full md:w-[500px]" [card]="card"></app-menu-card>
+  </ng-container>
+</div>

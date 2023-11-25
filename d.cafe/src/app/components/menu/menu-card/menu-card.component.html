@@ -1,0 +1,6 @@
+<div
+  class="p-4 rounded-lg bg-black shadow-xl shadow-white/5 w-full border border-white/5 cursor-pointer"
+  (click)="openSection()">
+  <p class="text-xl text-white font-semibold">{{ card.title | translate }}</p>
+  <p *ngIf="card.subtitle" class="text-lg text-white mt-2">{{ card.subtitle | translate }}</p>
+</div>
