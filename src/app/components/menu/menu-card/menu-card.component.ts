@@ -6,7 +6,7 @@ import { Route, Router } from '@angular/router';
   templateUrl: './menu-card.component.html'
 })
 export class MenuCardComponent {
-  @Input() card: { title: string, subtitle: string; id: number; }
+  @Input() card: { title: string, id: number; }
 
   constructor(private router: Router) {}
 

@@ -13,6 +13,7 @@ import { HomePageComponent } from './components/home-page/home-page.component';
 import { MenuCardComponent } from './components/menu/menu-card/menu-card.component';
 import { MenuSectionComponent } from './components/menu-section/menu-section.component';
 import { MenuService } from './services/menu.service';
+import { ItemCardComponent } from './components/menu/item-card/item-card.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -24,7 +25,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     LanguageSwitcherComponent,
     HomePageComponent,
     MenuCardComponent,
-    MenuSectionComponent
+    MenuSectionComponent,
+    ItemCardComponent
   ],
   imports: [
     BrowserModule,

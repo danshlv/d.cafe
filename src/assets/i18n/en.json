@@ -1,8 +1,7 @@
 {
   "TITLE": {
     "BRAND_NAME": "D.CAFE",
-    "WELCOME": "GLAD TO SEE YOU",
-    "WHAT_DO_YOU_WANT": "What do you prefer for today?",
+    "SUBTITLE": "people - coffee - breakfast - desserts",
     "SMTH_TO_EAT": "SOMETHING TO EAT",
     "SMTH_TO_DRINK": "SOMETHING TO DRINK"
   },
@@ -65,11 +64,24 @@
       "WATER": "Still/sprinkle water",
       "COLA": "Cola/Fanta/Sprite 0.3/0.5",
       "JUICE": "Juice 0.2/0.5",
-      "SCHWEPPES": "Schweppes 0.3"
+      "SCHWEPPES": "Schweppes 0.3",
+
+      "JASMINE_PEARL": "JASMINE PEARL",
+      "SENCHA_ASAMUSHI": "SENCHA ASAMUSHI",
+      "JIN_JUN_MEI": "JIN JUN MEI (GOLD EYEBROWS)",
+      "SHU_PUER": "SHU PUER",
+      "DA_HUNG_PAO": "DA HUNG PAO"
     },
     "DESCRIPTION": {
       "ENGLISH_BREAKFAST": "Scrambled eggs, fried sausages, cherry and feta salad, pickled cucumbers with Dijon mustard, beans, toast",
-      "QUESADILLA": "Tortilla filled with chicken fillet, stewed mushrooms, red pepper, corn, sauce and mozzarella cheese. Optional hot sauce."
+      "QUESADILLA": "Tortilla filled with chicken fillet, stewed mushrooms, red pepper, corn, sauce and mozzarella cheese. Optional hot sauce.",
+      "JASMINE_PEARL": "Green tea with jasmine flowers from the province of Guangxi, which is famous for its jasmine gardens. The aroma is sweet, floral and refreshing.",
+      "SENCHA_ASAMUSHI": "Japanese green tea from Mie Prefecture with a refreshing floral and herbal aroma.",
+      "JIN_JUN_MEI": "Red (black) tea from Fujian province. Sweet with shades of dark chocolate, nuts, prunes, light smoky and citrus notes.",
+      "SHU_PUER": "Black pu-erh from Yunnan province. The aroma is sweet, with notes of nuts and dried fruits.",
+      "DA_HUNG_PAO": "Dark oolong from the Wushan region of Fujian province. It combines caramel sweetness and chocolate tartness, sweet pastry and smokiness.",
+      "PANINI": "Two breads with filling: ham, cheese, salad, signature sauce - OR - cheese, chicken, salad, Caesar sauce.",
+      "TOASTS": "Toast bread with: feta cheese, hard cheese, mozzarella cheese, white sauce  - OR - ham, feta cheese, tomatoes, white sauce."
     },
     "TITLE": {
       "BREAKFASTS_TOASTS": "Breakfasts/Toasts",

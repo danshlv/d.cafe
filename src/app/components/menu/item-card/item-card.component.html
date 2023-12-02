@@ -1,0 +1,19 @@
+<div class="p-4 rounded-lg bg-black shadow-xl shadow-white/5 w-full border border-white/5 cursor-pointer flex justify-between">
+  <div class="w-[calc(100%_-_88px)]">
+    <p class="text-xl text-white font-semibold">{{ item.name | translate | uppercase }}</p>
+    <p *ngIf="item.description" class="text-lg text-white mt-2">{{ item.description | translate }}</p>
+  </div>
+
+
+  <div class="flex flex-col items-end">
+    <!-- Price blocks (50 or 50/70) -->
+    <div *ngIf="Array.isArray(item.price)" class="ml-2 flex items-center">
+      <p *ngFor="let price of item.price; last as isLast" class="text-xl">{{ price }}{{ !isLast ? '/' : '' }}</p>
+    </div>
+
+    <p *ngIf="!Array.isArray(item.price)" class="ml-2 text-xl">{{ item.price }}</p>
+
+    <img *ngIf="item.image" class="w-[100px] mt-4" [src]="'/assets/images/' + item.image + '.png'"/>
+  </div>
+
+</div>
