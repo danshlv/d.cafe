@@ -4,14 +4,14 @@ import { HomePageComponent } from './components/home-page/home-page.component';
 import { MenuSectionComponent } from './components/menu-section/menu-section.component';
 
 const routes: Routes = [
-  {
-    path: '',
-    component: HomePageComponent
-  },
-  {
-    path: 'section/:id',
-    component: MenuSectionComponent
-  }
+  // {
+  //   path: '',
+  //   component: HomePageComponent
+  // },
+  // {
+  //   path: 'section/:id',
+  //   component: MenuSectionComponent
+  // }
 ];
 
 @NgModule({

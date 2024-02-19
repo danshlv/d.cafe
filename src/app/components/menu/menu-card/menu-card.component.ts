@@ -1,5 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { Route, Router } from '@angular/router';
+import { MenuService } from 'src/app/services/menu.service';
 
 @Component({
   selector: 'app-menu-card',
@@ -8,9 +9,10 @@ import { Route, Router } from '@angular/router';
 export class MenuCardComponent {
   @Input() card: { title: string, id: number; }
 
-  constructor(private router: Router) {}
+  constructor(private router: Router, private menuService: MenuService) {}
 
   openSection(): void {
-    this.router.navigate([`/section/${this.card.id}`]);
+    // this.router.navigate([`/section/${this.card.id}`]);
+    this.menuService.setSelectedSectionMenuId(this.card.id);
   }
 }

@@ -3,6 +3,10 @@ import { MenuItem, MenuSection } from '../types/menu';
 
 @Injectable()
 export class MenuService {
+  get selectedSectionMenuId(): number {
+    return this._selectedSectionMenuId;
+  }
+
   private readonly allSections: { [key: number]: { title: string; sections: MenuSection[] } } = {
     1: {
       title: 'ITEM.TITLE.MEALS',
@@ -247,12 +251,12 @@ export class MenuService {
           items: [
             new MenuItem({
               name: 'ITEM.NAME.NUT',
-              price: [15, 25]
+              price: 15
             }),
-            new MenuItem({
-              name: 'ITEM.NAME.CROISSANT',
-              price: 35
-            }),
+            // new MenuItem({
+            //   name: 'ITEM.NAME.CROISSANT',
+            //   price: 35
+            // }),
             new MenuItem({
               name: 'ITEM.NAME.MUFFIN',
               price: 30
@@ -261,10 +265,10 @@ export class MenuService {
               name: 'ITEM.NAME.PIPE',
               price: 30
             }),
-            new MenuItem({
-              name: 'ITEM.NAME.DONUT',
-              price: 40
-            }),
+            // new MenuItem({
+            //   name: 'ITEM.NAME.DONUT',
+            //   price: 40
+            // }),
             new MenuItem({
               name: 'ITEM.NAME.WAFFLE_CAKE',
               price: 25
@@ -279,7 +283,13 @@ export class MenuService {
     }
   };
 
+  private _selectedSectionMenuId: number;
+
   getSectionMenu(id: number): { title: string, sections: MenuSection[] } {
     return this.allSections[id];
+  }
+
+  setSelectedSectionMenuId(id: number): void {
+    this._selectedSectionMenuId = id;
   }
 }
