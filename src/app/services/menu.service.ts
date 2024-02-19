@@ -5,7 +5,7 @@ import { MenuItem, MenuSection } from '../types/menu';
 export class MenuService {
   private readonly allSections: { [key: number]: { title: string; sections: MenuSection[] } } = {
     1: {
-      title: 'ITEM.TITLE.BREAKFASTS_TOASTS',
+      title: 'ITEM.TITLE.MEALS',
       sections: [
         {
           title: 'ITEM.TITLE.BREAKFASTS_TOASTS',
@@ -50,12 +50,7 @@ export class MenuService {
               image: 'cream_soup'
             })
           ]
-        }
-      ]
-    },
-    2: {
-      title: 'ITEM.TITLE.FRYING',
-      sections: [
+        },
         {
           title: 'ITEM.TITLE.FRYING',
           items: [
@@ -75,7 +70,7 @@ export class MenuService {
         }
       ]
     },
-    3: {
+    2: {
       title: 'ITEM.TITLE.COFFEE_TEA',
       sections: [
         {
@@ -153,7 +148,7 @@ export class MenuService {
         },
       ]
     },
-    4: {
+    3: {
       title: 'ITEM.NAME.PREMIUM_TEA',
       sections: [
         {
@@ -188,7 +183,7 @@ export class MenuService {
         }
       ]
     },
-    5: {
+    4: {
       title: 'ITEM.TITLE.WATER_JUICE',
       sections: [
         {
@@ -214,7 +209,7 @@ export class MenuService {
         }
       ]
     },
-    6: {
+    5: {
       title: 'ITEM.TITLE.COLD_DRINK',
       sections: [
         {
@@ -244,7 +239,7 @@ export class MenuService {
         }
       ]
     },
-    7: {
+    6: {
       title: 'ITEM.TITLE.SWEETS',
       sections: [
         {

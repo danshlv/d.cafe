@@ -4,7 +4,7 @@
   <p class="text-white text-4xl mb-8 text-center">{{ sectionTitle | translate }}</p>
 
   <ng-container *ngFor="let section of sections">
-    <!-- <p class="text-2xl mt-8 mb-4">{{ section.title | translate | uppercase }}</p> -->
+    <p *ngIf="sections.length > 1" class="text-2xl mt-8 mb-4">{{ section.title | translate | uppercase }}</p>
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4 w-full md:max-w-[1216px]">
       <app-item-card *ngFor="let item of section.items" class="!w-full md:max-w-[600px]" [item]="item"></app-item-card>
