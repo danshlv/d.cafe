@@ -291,5 +291,6 @@ export class MenuService {
 
   setSelectedSectionMenuId(id: number): void {
     this._selectedSectionMenuId = id;
+    localStorage.setItem('section', `${id}`);
   }
 }

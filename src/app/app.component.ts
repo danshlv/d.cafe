@@ -23,6 +23,15 @@ export class AppComponent {
   ) {
     this.appState.initLang();
     this.translate.setDefaultLang(LANG.UK);
-    this.translate.use(LANG.UK)
+    this.translate.use(LANG.UK);
+    this.initLastSelectedSection();
+  }
+
+  private initLastSelectedSection(): void {
+    const id = localStorage.getItem('section');
+
+    if (id) {
+      this.menuService.setSelectedSectionMenuId(+id);
+    }
   }
 }
