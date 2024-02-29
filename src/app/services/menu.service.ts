@@ -14,12 +14,12 @@ export class MenuService {
         {
           title: 'ITEM.TITLE.BREAKFASTS_TOASTS',
           items: [
-            new MenuItem({
-              name: 'ITEM.NAME.ENGLISH_BREAKFAST',
-              description: 'ITEM.DESCRIPTION.ENGLISH_BREAKFAST',
-              price: 110,
-              image: 'breakfast'
-            }),
+            // new MenuItem({
+            //   name: 'ITEM.NAME.ENGLISH_BREAKFAST',
+            //   description: 'ITEM.DESCRIPTION.ENGLISH_BREAKFAST',
+            //   price: 110,
+            //   image: 'breakfast'
+            // }),
             new MenuItem({
               name: 'ITEM.NAME.QUESADILLA',
               description: 'ITEM.DESCRIPTION.QUESADILLA',
@@ -27,15 +27,25 @@ export class MenuService {
               image: 'quesadilla'
             }),
             new MenuItem({
-              name: 'ITEM.NAME.CURD_FRITTERS',
-              price: 90,
-              image: 'curd_fritters'
+              name: 'ITEM.NAME.SALT_WAFFLE',
+              price: 100,
+              image: 'salt_waffles'
             }),
             new MenuItem({
-              name: 'ITEM.NAME.PANCAKES',
-              price: 65,
-              image: 'pancakes'
+              name: 'ITEM.NAME.SWEET_WAFFLE',
+              price: 60,
+              image: 'sweet_waffles'
             }),
+            // new MenuItem({
+            //   name: 'ITEM.NAME.CURD_FRITTERS',
+            //   price: 90,
+            //   image: 'curd_fritters'
+            // }),
+            // new MenuItem({
+            //   name: 'ITEM.NAME.PANCAKES',
+            //   price: 65,
+            //   image: 'pancakes'
+            // }),
             new MenuItem({
               name: 'ITEM.NAME.TOASTS',
               description: 'ITEM.DESCRIPTION.TOASTS',
