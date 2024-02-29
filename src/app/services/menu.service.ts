@@ -12,7 +12,7 @@ export class MenuService {
       title: 'ITEM.TITLE.MEALS',
       sections: [
         {
-          title: 'ITEM.TITLE.BREAKFASTS_TOASTS',
+          title: 'ITEM.TITLE.MAIN_MEALS',
           items: [
             // new MenuItem({
             //   name: 'ITEM.NAME.ENGLISH_BREAKFAST',
