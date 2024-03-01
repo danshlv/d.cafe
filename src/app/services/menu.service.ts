@@ -28,11 +28,13 @@ export class MenuService {
             }),
             new MenuItem({
               name: 'ITEM.NAME.SALT_WAFFLE',
+              description: 'ITEM.DESCRIPTION.SALT_WAFFLE',
               price: 100,
               image: 'salt_waffles'
             }),
             new MenuItem({
               name: 'ITEM.NAME.SWEET_WAFFLE',
+              description: 'ITEM.DESCRIPTION.SWEET_WAFFLE',
               price: 60,
               image: 'sweet_waffles'
             }),
@@ -70,11 +72,13 @@ export class MenuService {
           items: [
             new MenuItem({
               name: 'ITEM.NAME.FRENCHED_FRIES',
-              price: [40, 70]
+              price: [40, 70],
+              image: 'frenched_fries'
             }),
             new MenuItem({
               name: 'ITEM.NAME.NUGGETS',
-              price: [50, 70]
+              price: [50, 70],
+              image: 'nuggets'
             }),
             new MenuItem({
               name: 'ITEM.NAME.SAUCE',

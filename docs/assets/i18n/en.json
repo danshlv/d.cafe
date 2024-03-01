@@ -18,8 +18,8 @@
     "NAME": {
       "ENGLISH_BREAKFAST": "English breakfast",
       "QUESADILLA": "Quesadilla",
-      "SWEET_WAFFLE": "Sweet waffle",
-      "SALT_WAFFLE": "Salt waffle",
+      "SWEET_WAFFLE": "Belgian waffle \"Choco\"",
+      "SALT_WAFFLE": "Belgian waffle \"Caesar\"",
       "CURD_FRITTERS": "Curd fritters",
       "PANCAKES": "Pancakes",
       "PANINI": "Panini",
@@ -77,6 +77,8 @@
     "DESCRIPTION": {
       "ENGLISH_BREAKFAST": "Scrambled eggs, fried sausages, cherry and feta salad, pickled cucumbers with Dijon mustard, beans, toast",
       "QUESADILLA": "Tortilla filled with chicken fillet, stewed mushrooms, red pepper, corn, sauce and mozzarella cheese. Optional hot sauce.",
+      "SWEET_WAFFLE": "With chocolate paste, banana and almond flakes",
+      "SALT_WAFFLE": "With iceberg lettuce, cherry tomatoes, chicken breast, bacon, parmesan and \"Caesar\" sauce",
       "JASMINE_PEARL": "Green tea with jasmine flowers from the province of Guangxi, which is famous for its jasmine gardens. The aroma is sweet, floral and refreshing.",
       "SENCHA_ASAMUSHI": "Japanese green tea from Mie Prefecture with a refreshing floral and herbal aroma.",
       "JIN_JUN_MEI": "Red (black) tea from Fujian province. Sweet with shades of dark chocolate, nuts, prunes, light smoky and citrus notes.",
