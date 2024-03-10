@@ -61,6 +61,10 @@ export class MenuService {
               image: 'panini'
             }),
             new MenuItem({
+              name: 'ITEM.NAME.HAM_CROISSANT',
+              price: 125,
+            }),
+            new MenuItem({
               name: 'ITEM.NAME.CREAM_SOUP',
               price: 80,
               image: 'cream_soup'
@@ -264,32 +268,28 @@ export class MenuService {
           title: 'ITEM.TITLE.SWEETS',
           items: [
             new MenuItem({
-              name: 'ITEM.NAME.NUT',
-              price: 15
+              name: 'ITEM.NAME.LEMON_CROISSANT',
+              price: 45
             }),
-            // new MenuItem({
-            //   name: 'ITEM.NAME.CROISSANT',
-            //   price: 35
-            // }),
             new MenuItem({
               name: 'ITEM.NAME.MUFFIN',
-              price: 30
-            }),
-            new MenuItem({
-              name: 'ITEM.NAME.PIPE',
-              price: 30
-            }),
-            // new MenuItem({
-            //   name: 'ITEM.NAME.DONUT',
-            //   price: 40
-            // }),
-            new MenuItem({
-              name: 'ITEM.NAME.WAFFLE_CAKE',
-              price: 25
+              price: 35
             }),
             new MenuItem({
               name: 'ITEM.NAME.CAKE',
               price: 55
+            }),
+            new MenuItem({
+              name: 'ITEM.NAME.NUT_TART',
+              price: 80
+            }),
+            new MenuItem({
+              name: 'ITEM.NAME.CHERRY_TART',
+              price: 75
+            }),
+            new MenuItem({
+              name: 'ITEM.NAME.VANNILA_ECLAIR',
+              price: 50
             }),
           ]
         }

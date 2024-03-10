@@ -25,18 +25,22 @@
       "PANINI": "Panini",
       "TOASTS": "Toasts",
       "CREAM_SOUP": "Cream soup of the day",
+      "HAM_CROISSANT": "Ham croissant",
 
       "FRENCHED_FRIES": "Frenched fries M/L",
       "NUGGETS": "Nuggets M/L",
       "SAUCE": "Sauce",
 
       "NUT": "Sweet nut",
-      "CROISSANT": "Croissant",
+      "LEMON_CROISSANT": "Croissant with lemon filling",
       "MUFFIN": "Muffin",
       "PIPE": "Sweet pipe",
       "DONUT": "Donut",
       "WAFFLE_CAKE": "Waffle cake",
       "CAKE": "Cake",
+      "NUT_TART": "Nuts tart",
+      "CHERRY_TART": "Cherry tart",
+      "VANNILA_ECLAIR": "Vanilla eclair",
 
       "ESPRESSO": "Espresso",
       "DOPIO": "Double espresso",
