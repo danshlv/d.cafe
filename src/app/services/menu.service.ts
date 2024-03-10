@@ -23,19 +23,19 @@ export class MenuService {
             new MenuItem({
               name: 'ITEM.NAME.QUESADILLA',
               description: 'ITEM.DESCRIPTION.QUESADILLA',
-              price: 90,
+              price: 125,
               image: 'quesadilla'
             }),
             new MenuItem({
               name: 'ITEM.NAME.SALT_WAFFLE',
               description: 'ITEM.DESCRIPTION.SALT_WAFFLE',
-              price: 100,
+              price: 130,
               image: 'salt_waffles'
             }),
             new MenuItem({
               name: 'ITEM.NAME.SWEET_WAFFLE',
               description: 'ITEM.DESCRIPTION.SWEET_WAFFLE',
-              price: 60,
+              price: 85,
               image: 'sweet_waffles'
             }),
             // new MenuItem({
@@ -62,7 +62,7 @@ export class MenuService {
             }),
             new MenuItem({
               name: 'ITEM.NAME.CREAM_SOUP',
-              price: 70,
+              price: 80,
               image: 'cream_soup'
             })
           ]
