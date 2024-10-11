@@ -14,61 +14,35 @@ export class MenuService {
         {
           title: 'ITEM.TITLE.MAIN_MEALS',
           items: [
-            // new MenuItem({
-            //   name: 'ITEM.NAME.ENGLISH_BREAKFAST',
-            //   description: 'ITEM.DESCRIPTION.ENGLISH_BREAKFAST',
-            //   price: 110,
-            //   image: 'breakfast'
-            // }),
+            new MenuItem({
+              name: 'ITEM.NAME.ENGLISH_BREAKFAST',
+              description: 'ITEM.DESCRIPTION.ENGLISH_BREAKFAST',
+              price: 145,
+              image: 'breakfast'
+            }),
+            new MenuItem({
+              name: 'ITEM.NAME.ROLL',
+              price: 130,
+              image: 'roll'
+            }),
             new MenuItem({
               name: 'ITEM.NAME.QUESADILLA',
               description: 'ITEM.DESCRIPTION.QUESADILLA',
-              price: 125,
-              image: 'quesadilla'
-            }),
-            new MenuItem({
-              name: 'ITEM.NAME.SALT_WAFFLE',
-              description: 'ITEM.DESCRIPTION.SALT_WAFFLE',
               price: 130,
-              image: 'salt_waffles'
-            }),
-            new MenuItem({
-              name: 'ITEM.NAME.SWEET_WAFFLE',
-              description: 'ITEM.DESCRIPTION.SWEET_WAFFLE',
-              price: 85,
-              image: 'sweet_waffles'
-            }),
-            // new MenuItem({
-            //   name: 'ITEM.NAME.CURD_FRITTERS',
-            //   price: 90,
-            //   image: 'curd_fritters'
-            // }),
-            // new MenuItem({
-            //   name: 'ITEM.NAME.PANCAKES',
-            //   price: 65,
-            //   image: 'pancakes'
-            // }),
-            new MenuItem({
-              name: 'ITEM.NAME.TOASTS',
-              description: 'ITEM.DESCRIPTION.TOASTS',
-              price: 55,
-              image: 'toast'
-            }),
-            new MenuItem({
-              name: 'ITEM.NAME.PANINI',
-              description: 'ITEM.DESCRIPTION.PANINI',
-              price: 65,
-              image: 'panini'
+              image: 'quesadilla'
             }),
             new MenuItem({
               name: 'ITEM.NAME.HAM_CROISSANT',
               price: 125,
             }),
             new MenuItem({
-              name: 'ITEM.NAME.CREAM_SOUP',
-              price: 80,
-              image: 'cream_soup'
-            })
+              name: 'ITEM.NAME.QUISHE_SULUGUNI',
+              price: 70,
+            }),
+            new MenuItem({
+              name: 'ITEM.NAME.QUISHE_CHIKCEN_N_MASHROOMS',
+              price: 70,
+            }),
           ]
         },
         {
@@ -100,43 +74,43 @@ export class MenuService {
           items: [
             new MenuItem({
               name: 'ITEM.NAME.ESPRESSO',
-              price: 20
+              price: 25
             }),
             new MenuItem({
               name: 'ITEM.NAME.DOPIO',
-              price: 35
+              price: 40
             }),
             new MenuItem({
               name: 'ITEM.NAME.AMERICANO',
-              price: 20
+              price: 25
             }),
             new MenuItem({
               name: 'ITEM.NAME.AMERICANO_MILK',
-              price: 30
+              price: 35
             }),
             new MenuItem({
               name: 'ITEM.NAME.FILTER_COFFEE',
-              price: 35
+              price: 40
             }),
             new MenuItem({
               name: 'ITEM.NAME.CAPPUCCINO',
-              price: 35
+              price: 40
             }),
             new MenuItem({
               name: 'ITEM.NAME.LATTE',
-              price: 45
+              price: 50
             }),
             new MenuItem({
               name: 'ITEM.NAME.FLAT_WHITE',
-              price: 45
+              price: 50
             }),
             new MenuItem({
               name: 'ITEM.NAME.RAF',
-              price: 65
+              price: 70
             }),
             new MenuItem({
               name: 'ITEM.NAME.CAPPUORANGE',
-              price: 65
+              price: 70
             }),
             new MenuItem({
               name: 'ITEM.NAME.CACAO',
@@ -163,7 +137,7 @@ export class MenuService {
               price: 15
             }),
             new MenuItem({
-              name: 'ITEM.NAME.PANT_MILK',
+              name: 'ITEM.NAME.PLANT_MILK',
               price: [15, 20]
             }),
           ]
@@ -227,40 +201,44 @@ export class MenuService {
               name: 'ITEM.NAME.SCHWEPPES',
               price: 30
             }),
-          ]
-        }
-      ]
-    },
-    5: {
-      title: 'ITEM.TITLE.COLD_DRINK',
-      sections: [
-        {
-          title: 'ITEM.TITLE.COLD_DRINK',
-          items: [
             new MenuItem({
-              name: 'ITEM.NAME.ICE_LATTE',
-              price: 50
-            }),
-            new MenuItem({
-              name: 'ITEM.NAME.ICE_CAPPUORANGE',
-              price: 65
-            }),
-            new MenuItem({
-              name: 'ITEM.NAME.ESPRESSO_TONIC',
-              price: 50
-            }),
-            new MenuItem({
-              name: 'ITEM.NAME.LEMONADE',
-              price: 40
-            }),
-            new MenuItem({
-              name: 'ITEM.NAME.MILKSHAKE',
-              price: 40
+              name: 'ITEM.NAME.KOMBUCHA',
+              price: 60
             }),
           ]
         }
       ]
     },
+    // 5: {
+    //   title: 'ITEM.TITLE.COLD_DRINK',
+    //   sections: [
+    //     {
+    //       title: 'ITEM.TITLE.COLD_DRINK',
+    //       items: [
+    //         new MenuItem({
+    //           name: 'ITEM.NAME.ICE_LATTE',
+    //           price: 50
+    //         }),
+    //         new MenuItem({
+    //           name: 'ITEM.NAME.ICE_CAPPUORANGE',
+    //           price: 65
+    //         }),
+    //         new MenuItem({
+    //           name: 'ITEM.NAME.ESPRESSO_TONIC',
+    //           price: 50
+    //         }),
+    //         new MenuItem({
+    //           name: 'ITEM.NAME.LEMONADE',
+    //           price: 40
+    //         }),
+    //         new MenuItem({
+    //           name: 'ITEM.NAME.MILKSHAKE',
+    //           price: 40
+    //         }),
+    //       ]
+    //     }
+    //   ]
+    // },
     6: {
       title: 'ITEM.TITLE.SWEETS',
       sections: [
@@ -268,15 +246,7 @@ export class MenuService {
           title: 'ITEM.TITLE.SWEETS',
           items: [
             new MenuItem({
-              name: 'ITEM.NAME.LEMON_CROISSANT',
-              price: 45
-            }),
-            new MenuItem({
-              name: 'ITEM.NAME.MUFFIN',
-              price: 35
-            }),
-            new MenuItem({
-              name: 'ITEM.NAME.CAKE',
+              name: 'ITEM.NAME.SMALL_TART',
               price: 55
             }),
             new MenuItem({
@@ -291,6 +261,15 @@ export class MenuService {
               name: 'ITEM.NAME.VANNILA_ECLAIR',
               price: 50
             }),
+            new MenuItem({
+              name: 'ITEM.NAME.MACAROON',
+              price: 70
+            }),
+            new MenuItem({
+              name: 'ITEM.NAME.LOLI_POP',
+              price: 35
+            }),
+
           ]
         }
       ]

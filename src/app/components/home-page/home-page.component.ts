@@ -22,10 +22,10 @@ export class HomePageComponent {
       title: 'ITEM.TITLE.WATER_JUICE',
       id: 4
     },
-    {
-      title: 'ITEM.TITLE.COLD_DRINK',
-      id: 5
-    },
+    // {
+    //   title: 'ITEM.TITLE.COLD_DRINK',
+    //   id: 5
+    // },
     {
       title: 'ITEM.TITLE.SWEETS',
       id: 6
