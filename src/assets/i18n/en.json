@@ -67,6 +67,11 @@
       "LACTOSE_FREE_MILK": "+ Lactose free milk",
       "PLANT_MILK": "+ Plant milk M/L",
 
+      "LATTE_SNIKERS": "Latte Snickers",
+      "PUMPKIN_LATTE": "Pumpkin latte",
+      "GRANATE_COFFEE": "Granate coffee",
+      "MOKKO": "Mokko",
+
       "ICE_LATTE": "Ice latte",
       "ICE_CAPPUORANGE": "Ice cappuorange",
       "ESPRESSO_TONIC": "Espresso tonic",
@@ -105,7 +110,8 @@
       "SWEETS": "Sweets",
       "COFFEE_TEA": "Coffee/Not coffee",
       "COLD_DRINK": "Cold Drinks",
-      "WATER_JUICE": "Water/Juice"
+      "WATER_JUICE": "Water/Juice",
+      "SEANSONAL_DRINKS": "Seasonal drinks"
     }
   }
 }

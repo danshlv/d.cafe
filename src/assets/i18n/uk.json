@@ -67,6 +67,11 @@
       "LACTOSE_FREE_MILK": "+ Безлактозне молоко",
       "PLANT_MILK": "+ Рослинне молоко M/L",
 
+      "LATTE_SNIKERS": "Лате-снікерс",
+      "PUMPKIN_LATTE": "Гарбузове лате",
+      "GRANATE_COFFEE": "Гранатова кава",
+      "MOKKO": "Мокко",
+
       "ICE_LATTE": "Айс лате",
       "ICE_CAPPUORANGE": "Айс капуорандж",
       "ESPRESSO_TONIC": "Еспресо тонік",
@@ -105,7 +110,8 @@
       "SWEETS": "Солодощі",
       "COFFEE_TEA": "Кава/Не кава",
       "COLD_DRINK": "Холодні напої",
-      "WATER_JUICE": "Вода/Соки"
+      "WATER_JUICE": "Вода/Соки",
+      "SEANSONAL_DRINKS": "Сезонні напої"
     }
   }
 }

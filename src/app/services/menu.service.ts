@@ -8,6 +8,32 @@ export class MenuService {
   }
 
   private readonly allSections: { [key: number]: { title: string; sections: MenuSection[] } } = {
+    7: {
+      title: 'ITEM.TITLE.SEANSONAL_DRINKS',
+      sections: [
+        {
+          title: 'ITEM.TITLE.SEANSONAL_DRINKS',
+          items: [
+            new MenuItem({
+              name: 'ITEM.NAME.LATTE_SNIKERS',
+              price: 85
+            }),
+            new MenuItem({
+              name: 'ITEM.NAME.PUMPKIN_LATTE',
+              price: 75
+            }),
+            new MenuItem({
+              name: 'ITEM.NAME.GRANATE_COFFEE',
+              price: 70
+            }),
+            new MenuItem({
+              name: 'ITEM.NAME.MOKKO',
+              price: 60
+            }),
+          ]
+        }
+      ]
+    },
     1: {
       title: 'ITEM.TITLE.MEALS',
       sections: [

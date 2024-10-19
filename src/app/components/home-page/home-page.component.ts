@@ -7,6 +7,10 @@ import { Component } from '@angular/core';
 export class HomePageComponent {
   menuCards: {title: string; id: number; }[] = [
     {
+      title: 'ITEM.TITLE.SEANSONAL_DRINKS',
+      id: 7,
+    },
+    {
       title: 'ITEM.TITLE.MEALS',
       id: 1
     },
